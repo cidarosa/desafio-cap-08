@@ -1,10 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 function App() {
   return (
-    <h1>Integrando com a API do Github</h1>
+    <Routes />
   );
-}
+};
 
 export default App;
