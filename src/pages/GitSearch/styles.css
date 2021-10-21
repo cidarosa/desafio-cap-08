@@ -1,0 +1,16 @@
+.git-search-container {
+  padding: 40px;
+  background-color: #fff;
+}
+.git-search-card-container {
+  padding: 50px;
+  background: #e6f7ff;
+  border-radius: 16px;
+
+  width: 1251px;
+  height: 270px;
+}
+
+.git-search-card-container h1 {
+  color: #000;
+}

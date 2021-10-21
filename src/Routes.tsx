@@ -2,6 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Navbar from 'components/Navbar';
 import Home from 'pages/Home';
+import GitSearch from 'pages/GitSearch';
 
 
 const Routes = () => (
@@ -10,6 +11,9 @@ const Routes = () => (
         <Switch>
             <Route path="/" exact>
                 <Home />
+            </Route>
+            <Route path="/gitsearch">
+                <GitSearch />
             </Route>
         </Switch>
     </BrowserRouter>
