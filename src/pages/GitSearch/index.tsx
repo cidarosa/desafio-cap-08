@@ -69,9 +69,6 @@ const GitSearch = () => {
                             </button>
                         </div>
                     </form>
-
-
-
                 </div>
             </div>
             <div className="container container-response">
@@ -83,8 +80,7 @@ const GitSearch = () => {
                     }
                 </div>
 
-                <div className="container-response-data">
-                   
+                <div className="container-response-data">                   
                     {gitUser &&
                         <>
                          <h4>Informações</h4>
@@ -92,7 +88,6 @@ const GitSearch = () => {
                             <ResultCard title="Seguidores:" description={gitUser.followers} />
                             <ResultCard title="Localidade:" description={gitUser.location} />
                             <ResultCard title="Nome:" description={gitUser.name} />
-                            <ResultCard title="Avatar:" description={gitUser.avatar_url} />
                         </>
                     }
                 </div>
